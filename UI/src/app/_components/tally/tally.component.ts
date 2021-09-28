@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SocketService } from 'src/app/_services/socket.service';
-
+const programAudio = new Audio();
+programAudio.src = "audio.mp3";
+const previewAudio = new Audio();
+previewAudio.scr = "previewaudio.mp3";
 @Component({
   selector: 'app-tally',
   templateUrl: './tally.component.html',
@@ -40,8 +43,10 @@ export class TallyComponent {
       }
       if (program) {
         window.navigator.vibrate(400);
+		programAudio.play();
       } else if (preview) {
         window.navigator.vibrate([100, 30, 100, 30, 100]);
+		previewAudio.play();
       }
       
     });
