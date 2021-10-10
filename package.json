@@ -47,6 +47,7 @@
 		"Hannes Rüger <hannesrueger@gmx.de>"
 	],
 	"dependencies": {
+		"@types/jquery": "^2.0.47",
 		"atem-connection": "3.0.0-nightly-latest-20210530-132658-16c3cdd.0",
 		"axios": "^0.21.1",
 		"cli-color": "^2.0.0",
@@ -55,6 +56,7 @@
 		"express": "^4.17.1",
 		"find-remove": "^3.1.0",
 		"fs-extra": "^10.0.0",
+		"howler": "^2.2.3",
 		"jquery": "^3.6.0",
 		"jspack": "^0.0.4",
 		"obs-websocket-js": "^4.0.2",
@@ -76,6 +78,7 @@
 		"build-desktop": "electron-builder"
 	},
 	"devDependencies": {
+		"@types/howler": "^2.2.4",
 		"electron": "^12.0.9",
 		"electron-builder": "^22.10.5"
 	}

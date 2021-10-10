@@ -56,3 +56,6 @@ It is not sold, authorized, or associated with any other company or product.
 
 To contact the author or for more information, please visit [www.techministry.blog](http://www.techministry.blog).
 
+TO CHANGE AUDIO SOUNDS ON PREVIEW AND PROGRAM:
+Go into UI/assets and replace the audio files. Make sure they are named appropriately and are mp3. it should just work - crazytechkid
+
